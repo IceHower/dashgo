@@ -21,7 +21,7 @@ export async function getUsers(): Promise<User[]> {
             })
         }
     })
-    return users
+    return users;git
 }
 export function useUsers() {
     return useQuery('users', getUsers, {
